@@ -1,0 +1,294 @@
+/* =====Defult Css start  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container_full {
+  width: 100%;
+}
+.container-1100 {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-1100::before,
+.container-1100::after,
+.container_full::before,
+.container_full::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-100 {
+  width: 100%;
+  float: left;
+  padding: 0 15px;
+}
+.col-50 {
+  width: 50%;
+  float: left;
+  padding: 0 15px;
+}
+.col-33_33 {
+  width: 33.33%;
+  float: left;
+  padding: 0 15px;
+}
+.col-25 {
+  width: 25%;
+  float: left;
+  padding: 0 15px;
+}
+
+.col-20 {
+  width: 20%;
+  float: left;
+  padding: 0 15px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+/* =======Defult CSS End=========== */
+
+/* ============================site css start====== */
+
+/* ===== 01. top header section start ===== */
+
+.top_header {
+  background-color: #1d1d1d;
+  padding: 15px 0;
+}
+.mobilenumber {
+  margin-right: 30px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.3s;
+  color: whitesmoke;
+}
+.mobilenumber:hover {
+  color: red;
+}
+
+.social_icone {
+  display: inline-block;
+}
+.social_icone li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.social_icone li a {
+  text-decoration: none;
+  color: whitesmoke;
+  transition: 0.3s;
+}
+.social_icone li a:hover {
+  color: red;
+}
+.login_register a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: whitesmoke;
+  transition: 0.3s;
+}
+.login_register a:hover {
+  color: red;
+}
+.login_register a i {
+  margin-right: 7px;
+}
+.login_register {
+  float: right;
+}
+
+/* ===== 01 top header section end ====  */
+
+/* ===== 02 header section Start ====  */
+.logo_for_header img {
+  width: 60%;
+}
+.col-65 {
+  width: 65%;
+  float: left;
+  padding: 0 15px;
+}
+
+.main_header ul > li {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.main_header ul > li > a {
+  text-decoration: none;
+  margin-right: 25px;
+  font-size: 17px;
+  color: #252525;
+  font-weight: 700;
+  transition: 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+.main_header ul > li > a:hover {
+  border-bottom: 2px solid red;
+}
+.main_header {
+  float: right;
+}
+
+header {
+  padding: 20px 0;
+}
+.active {
+  border-bottom: 2px solid red !important;
+}
+.manu_icone {
+  border-bottom: 2px solid transparent !important;
+}
+.manu_icone i:hover {
+  color: red;
+}
+/* ===== 02 header section End ====  */
+
+/* ==== 03 Home section start===== */
+
+.home_section {
+  background: url("../img/main-home-img-6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0;
+}
+.home_content > h1 {
+  font-size: 57px;
+  color: whitesmoke;
+  margin-bottom: 80px;
+  position: relative;
+}
+.home_content > h1::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100px;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+}
+
+.home_content > p {
+  color: whitesmoke;
+  font-weight: 200;
+  margin-bottom: 60px;
+  line-height: 25px;
+}
+
+.home_content > a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 20px 40px;
+  margin-right: 30px;
+  border: 2px solid red;
+  transition: 0.6s;
+}
+.active_button {
+  background-color: red;
+  transition: 0.3s;
+}
+.home_button > i {
+  display: none;
+  transition: 0.3s;
+}
+
+.home_button:hover > i {
+  display: inline-block;
+}
+
+/* ==== 03 Home section End===== */
+
+/* 04 popular section start */
+.popular {
+  margin-top: 130px;
+}
+.popular_containt ul > li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 700;
+}
+.popular_containt ul > li > a {
+  text-decoration: none;
+  color: #252525;
+}
+.popular_containt i {
+  display: none;
+  color: red;
+  margin-right: 3px;
+}
+.popular_containt {
+  margin-bottom: 40px;
+  position: relative;
+}
+.popular_containt:hover i {
+  display: inline-block;
+}
+.free {
+  float: right;
+}
+.popula_text_footer a {
+  text-decoration: none;
+}
+.popula_text_footer {
+  margin-top: 30px;
+}
+.students {
+  margin-right: 10px;
+}
+.popular_text h3 {
+  margin-bottom: 10px;
+}
+.popular_text p {
+  margin-top: 20px;
+  line-height: 20px;
+}
+
+.cartificates {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 10px 15px;
+  transition: 0.5s;
+  border-top-left-radius: 10px;
+}
+.cartificates:hover {
+  background-color: #1d1d1d;
+}
+/* 04 popular section end */
+
+/* <!-- 05 expart section start --> */
+
+/* <!-- 05 expart section end --> */
